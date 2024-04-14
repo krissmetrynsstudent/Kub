@@ -36,6 +36,6 @@ jobs:
       #     echo test, and deploy your project.
        # Build and push container image.
       - name: Build and push container image
-        uses: docker://krissmetryns/hello-world-nginx
+        uses: krissmetryns/hello-world-nginx
         
     
