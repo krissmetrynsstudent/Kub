@@ -36,6 +36,8 @@ jobs:
       #     echo test, and deploy your project.
        # Build and push container image.
       - name: Build and push container image
-        uses: docker/build-push-action@v2
-        
+        uses: build-push-action@v2
+        with:
+            image: krissmetryns/hello-world-nginx:v1
+            ports: 8080:80
     
