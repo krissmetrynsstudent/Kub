@@ -36,8 +36,8 @@ jobs:
       #     echo test, and deploy your project.
        # Build and push container image.
       - name: Build and push container image
-        uses: build-push-action@v5
+        uses: docker/build-push-action@v5
         with:
             tags: username/repo:latest
-            ports: 8080:80
+            
     
