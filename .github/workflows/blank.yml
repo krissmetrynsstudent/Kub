@@ -38,4 +38,4 @@ jobs:
       - name: Build and push container image
         uses: hello-world-nginx:v1
         with:
-          port: 80
+          port: 8080:80
