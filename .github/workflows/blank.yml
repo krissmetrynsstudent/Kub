@@ -36,6 +36,6 @@ jobs:
       #     echo test, and deploy your project.
        # Build and push container image.
       - name: Build and push container image
-        uses: hello-world-nginx
+        uses: docker/build-push-action@v2
         
     
